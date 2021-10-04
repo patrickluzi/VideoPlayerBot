@@ -22,16 +22,16 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-admins = {}
+admins = {2033754823}
 AUDIO_CALL = {}
 VIDEO_CALL = {}
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-SESSION_STRING = getenv("SESSION_STRING", "")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "SafoTheBot")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "AsmSafone")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "MyVideoPlayer")
+API_ID = int(getenv("API_ID", "3230568"))
+API_HASH = getenv("API_HASH", "91c3b0f616fd4473aae239118e470b94")
+BOT_TOKEN = getenv("BOT_TOKEN", "2025141209:AAEoj8x8kk4Nf2nNoVQgJEUwp-ApBUgcwSs")
+SESSION_STRING = getenv("SESSION_STRING", "BQA42I77uDMlNOuPlRC8YnrY6yJ-Pn_Y89Bz3p-aRnPARbYNeJEtTWCzyEJ11UAyKWFfKMMilqbF9b_B-V-YCIEaHnl7k0H9JYX9XdSNYkrrJ9wutvMd03oLQDQsFwMCUGrAf2lgzNntM94rGP20aqjgEqGE9eOuQjRxgfhV1lGEmdHzangqwP6cjbL4Mf47C9zicpdVxaZ2e7CXbXfHOmELJfQxcedciFdlEm1jlk8Iir25NUN-wHBNQNhRe1uvy6R_B0JCIPVH9CHctr7SV7WwlAb5trElvH5ysAoNohp3B0F_U_7ik5-M95cUArhnOt-oJfJcF6D9EIMhS4KGaNDOK8puxQA")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "BaymaxSupportGroup")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "BaymaxSongUpdates")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "BaymaxMusicPlayer")
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
 REPLY_MESSAGE = getenv("REPLY_MESSAGE", "")
 if REPLY_MESSAGE:
